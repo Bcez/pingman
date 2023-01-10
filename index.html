@@ -16,15 +16,15 @@
     </head>
     <body background = "R.png">
         <center>
+          <div id="canvas">
+            
+          </div>
             <div id = "bar" class="btn btn-primary">
-                <h3 class = "heading">AI PING PONG
-                  <hr>
-                  <hr>
-                  <hr>
-                <button class = "btn btn-sm" data-toggle="modal">Instructions</button>
-                <hr>
+                <span class = "heading">AI PING PONG
+                  &NonBreakingSpace;
+                <button class = "btn btn-sm" data-toggle="modal" data-target="#MyModal">Instructions</button>
                 <button class = "btn btn-sm" onclick="restart()">Restart</button>
-            </h3>
+                </span>
             </div>
           
             <div id="MyModal" class="modal fade ">
@@ -34,7 +34,7 @@
                      <button type = "button" class = "close" data-dismiss="modal">&times;</button>
                      <h4>Instructions</h4> 
                     </div>
-                    <p>use your nose to move your side so the ball bounces off of it.</p>
+                    <p>use your wrist to move your side so the ball bounces off of it.</p>
     
                     <div class="modal-body">
                       <img src="jump.png" class ="instruction_image">
@@ -44,6 +44,9 @@
                 </div>
               </div>
             </div>
+          </div>
+          <div id="canvas">
+
           </div>
 
         </center>
